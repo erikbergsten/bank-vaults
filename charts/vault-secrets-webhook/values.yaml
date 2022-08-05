@@ -156,6 +156,8 @@ secretsFailurePolicy: Ignore
 
 apiSideEffectValue: NoneOnDryRun
 
+reinvocationPolicy: IfNeeded
+
 namespaceSelector:
   matchExpressions:
     - key: name
